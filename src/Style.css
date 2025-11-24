@@ -1,0 +1,155 @@
+/* Background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  min-height: 100vh;
+  padding: 20px;
+  color: #fff;
+}
+
+/* Main container */
+.app-container {
+  max-width: 650px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 24px;
+  border-radius: 20px;
+  backdrop-filter: blur(18px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Header */
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  text-align: center;
+}
+header p {
+  text-align: center;
+  opacity: 0.9;
+}
+
+/* Form */
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.input-box {
+  display: flex;
+  background: rgba(255, 255, 255, 0.25);
+  padding: 10px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.input-box input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+.input-box button {
+  background: #4ade80;
+  color: #111;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Select boxes */
+.selectors {
+  display: flex;
+  gap: 10px;
+}
+
+select {
+  flex: 1;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
+  backdrop-filter: blur(10px);
+}
+
+/* Task list */
+.task-list {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.task-list li {
+  background: rgba(255, 255, 255, 0.18);
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 14px;
+  backdrop-filter: blur(12px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-list li.completed {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+.task-list .actions button {
+  margin-left: 8px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.complete-btn {
+  background: #4ade80;
+  color: #111;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: #fff;
+}
+
+/* Progress bar */
+.progress-section {
+  margin-top: 20px;
+}
+
+.progress-bg {
+  height: 10px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #22c55e;
+}
+
+/* Clear button */
+.clear-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #dc2626;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
