@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -19,3 +20,7 @@ If you are developing a production application, we recommend using TypeScript wi
 # TaskManTaskBuddy-
 TaskMan is a React-based task management application
 >>>>>>> 0e54fd8fb6cc33c2622cb6d34c2090cd8bb45295
+=======
+# TaskManTaskBuddy-
+TaskBuddy is a React-based task management application
+>>>>>>> 067c59e0c7766c2848eabe25d4390314171dbf52
